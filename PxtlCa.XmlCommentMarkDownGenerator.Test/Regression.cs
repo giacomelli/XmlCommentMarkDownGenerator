@@ -9,13 +9,12 @@ namespace PxtlCa.XmlCommentMarkDownGenerator.Test
         [Test]
         public void TestBigVariantXml()
         {
-            var inputResourceName = "PxtlCa.XmlCommentMarkDownGenerator.Test.RegressionBigVariant_input.xml";
-            var outputResourceName = "PxtlCa.XmlCommentMarkDownGenerator.Test.RegressionBigVariant_output.md";
-            Regex normalizeSpace = new Regex(@"\s+", RegexOptions.Compiled);
+            var inputResourceName = "RegressionBigVariant_input.xml";
+            var outputResourceName = "RegressionBigVariant_output.md";
             var testInput = TestUtil.FetchResourceAsString(inputResourceName);
 
-            var expectedOutput = normalizeSpace.Replace(TestUtil.FetchResourceAsString(outputResourceName), " ");
-            var actualOutput = normalizeSpace.Replace(testInput.ToMarkDown(), " ");
+            var expectedOutput = TestUtil.NormalizeSpace(TestUtil.FetchResourceAsString(outputResourceName));
+			var actualOutput = TestUtil.NormalizeSpace(testInput.ToMarkDown());
             Assert.AreEqual(expectedOutput, actualOutput);
         }
 
@@ -23,7 +22,7 @@ namespace PxtlCa.XmlCommentMarkDownGenerator.Test
         [ExpectedException(typeof(System.Xml.XmlException))]
         public void TestUnexpectedElement()
         {
-            var inputResourceName = "PxtlCa.XmlCommentMarkDownGenerator.Test.UnexpectedElement_input.xml";
+            var inputResourceName = "UnexpectedElement_input.xml";
             Regex normalizeSpace = new Regex(@"\s+", RegexOptions.Compiled);
             var testInput = TestUtil.FetchResourceAsString(inputResourceName);
             

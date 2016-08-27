@@ -41,6 +41,7 @@
     <Compile Include="ElementTests.cs" />
     <Compile Include="Regression.cs" />
     <Compile Include="TestUtil.cs" />
+    <Compile Include="SamplesTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PxtlCa.XmlCommentMarkDownGenerator\PxtlCa.XmlCommentMarkDownGenerator.csproj">
@@ -59,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Resources\Samples\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
