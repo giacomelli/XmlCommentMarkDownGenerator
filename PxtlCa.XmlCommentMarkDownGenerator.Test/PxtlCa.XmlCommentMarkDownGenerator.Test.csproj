@@ -49,24 +49,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ElementC_input.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ElementPara_input.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ElementParam_input.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RegressionBigVariant_input.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RegressionBigVariant_output.md">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UnexpectedElement_input.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ElementC_input.xml" />
+    <EmbeddedResource Include="Resources\ElementPara_input.xml" />
+    <EmbeddedResource Include="Resources\ElementParam_input.xml" />
+    <EmbeddedResource Include="Resources\RegressionBigVariant_input.xml" />
+    <EmbeddedResource Include="Resources\RegressionBigVariant_output.md" />
+    <EmbeddedResource Include="Resources\UnexpectedElement_input.xml" />
+    <EmbeddedResource Include="Resources\Samples\Buildron.ModSdk.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

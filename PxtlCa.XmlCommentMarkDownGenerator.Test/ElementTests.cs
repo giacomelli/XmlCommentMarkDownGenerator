@@ -10,7 +10,7 @@ namespace PxtlCa.XmlCommentMarkDownGenerator.Test
         [Test]
         public void ElementPara()
         {
-            var inputResourceName = "PxtlCa.XmlCommentMarkDownGenerator.Test.ElementPara_input.xml";
+            var inputResourceName = "ElementPara_input.xml";
             Regex normalizeSpace = new Regex(@"\s+", RegexOptions.Compiled);
             var testInput = TestUtil.FetchResourceAsString(inputResourceName);
 
@@ -21,7 +21,7 @@ namespace PxtlCa.XmlCommentMarkDownGenerator.Test
         [Test]
         public void ElementC()
         {
-            var inputResourceName = "PxtlCa.XmlCommentMarkDownGenerator.Test.ElementC_input.xml";
+            var inputResourceName = "ElementC_input.xml";
             Regex normalizeSpace = new Regex(@"\s+", RegexOptions.Compiled);
             var testInput = TestUtil.FetchResourceAsString(inputResourceName);
 
@@ -32,7 +32,7 @@ namespace PxtlCa.XmlCommentMarkDownGenerator.Test
         [Test]
         public void ElementParam()
         {
-            var inputResourceName = "PxtlCa.XmlCommentMarkDownGenerator.Test.ElementParam_input.xml";
+            var inputResourceName = "ElementParam_input.xml";
             Regex normalizeSpace = new Regex(@"\s+", RegexOptions.Compiled);
             var testInput = TestUtil.FetchResourceAsString(inputResourceName);
 
