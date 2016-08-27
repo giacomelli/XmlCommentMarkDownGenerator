@@ -1,17 +1,12 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Reflection;
-using System.IO;
-using PxtlCa.XmlCommentMarkDownGenerator;
-using System.Xml.Linq;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
+using NUnit.Framework;
 
 namespace PxtlCa.XmlCommentMarkDownGenerator.Test
 {
-    [TestClass]
+    [TestFixture]
     public class Regression
     {
-        [TestMethod]
+        [Test]
         public void TestBigVariantXml()
         {
             var inputResourceName = "PxtlCa.XmlCommentMarkDownGenerator.Test.RegressionBigVariant_input.xml";
@@ -24,7 +19,7 @@ namespace PxtlCa.XmlCommentMarkDownGenerator.Test
             Assert.AreEqual(expectedOutput, actualOutput);
         }
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(System.Xml.XmlException))]
         public void TestUnexpectedElement()
         {

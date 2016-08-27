@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PxtlCa.XmlCommentMarkDownGenerator", "PxtlCa.XmlCommentMarkDownGenerator\PxtlCa.XmlCommentMarkDownGenerator.csproj", "{1375DC94-03F8-496C-981C-D5D6E1B0FD26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PxtlCa.XmlCommentMarkDownGenerator.Test", "PxtlCa.XmlCommentMarkDownGenerator.Test\PxtlCa.XmlCommentMarkDownGenerator.Test.csproj", "{7993D07F-7F81-477E-ABA1-E3E6DC5CAB6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PxtlCa.XmlCommentMarkDownGenerator.Test", "PxtlCa.XmlCommentMarkDownGenerator.Test\PxtlCa.XmlCommentMarkDownGenerator.Test.csproj", "{C8A6F40C-F5C8-4413-BBA6-B5FB172F608A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,10 @@ Global
 		{1375DC94-03F8-496C-981C-D5D6E1B0FD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1375DC94-03F8-496C-981C-D5D6E1B0FD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1375DC94-03F8-496C-981C-D5D6E1B0FD26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7993D07F-7F81-477E-ABA1-E3E6DC5CAB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7993D07F-7F81-477E-ABA1-E3E6DC5CAB6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7993D07F-7F81-477E-ABA1-E3E6DC5CAB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7993D07F-7F81-477E-ABA1-E3E6DC5CAB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A6F40C-F5C8-4413-BBA6-B5FB172F608A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A6F40C-F5C8-4413-BBA6-B5FB172F608A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A6F40C-F5C8-4413-BBA6-B5FB172F608A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A6F40C-F5C8-4413-BBA6-B5FB172F608A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
